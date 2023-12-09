@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordens de Serviço - Lançamentos</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <div class="global">
+        <header>ORDEM DE SERVIÇO</header>
+        <div class="observacao">
+            <p>Use os EPI's necessários para realização deste trabalho!</p>
+            <p>Mantenha o ambiente limpo e organizado durante e após a manutenção!</p>
+        </div>
+        <div class="abertura">
+            <form method="post" action="https://api.sheetmonkey.io/form/jEP89kFe3zVumq3ZKmJw7U">
+            <table>
+                <tr>
+                    <th>DATA DE ABERTURA:</th>
+                    <th>HORA:</th>
+                    <th>DATA DE CONCLUSÃO:</th>
+                    <th>HORA:</th>
+                </tr>
+                <tr>
+                    <td><input type="date" name="DXD_DATA_ABERTURA" required></td>
+                    <td><input type="time" name="DXD_HORA ABERTURA" required></td>
+                    <td><input type="date" name="DXD_DATA_CONCLUSÃO" required></td>
+                    <td><input type="time" name="DXD_HORA CONCLUSÃO" required></td>
+                </tr>
+                <tr>
+                    <th>Nº ORDEM:</th>
+                    <th>MÁQUINA:</th>
+                    <th>EQUIPAMENTO:</th>
+                    <th>SAFRA:</th>
+                </tr>
+                <tr>
+                    <td><input type="text" name="DXD_ORDEM" required></td>
+                    <td><input type="text" name="DXD_MAQUINA" required></td>
+                    <td><input type="text" name="DXD_EQUIPAMENTO" required></td>
+                    <td><input type="text" name="DXD_SAFRA" required></td>
+                </tr>
+                <tr>
+                    <th>MANTENEDOR 01:</th>
+                    <th>MANTENEDOR 02:</th>
+                </tr>
+                <tr>
+                    <td><input type="text" name="DXD_MANTENEDOR_01" required></td>
+                    <td><input type="text" name="DXD_MANTENEDOR_02"></td>
+                </tr>
+            </table>
+            <div class="titulo">TIPO</div>
+            <table style="background-color: #FFF;">
+                <tr>
+                    <td class="check"><input type="checkbox" name="DXD_TIPO" value="Corretiva">Corretiva</td>
+                    <td class="check"><input type="checkbox" name="DXD_TIPO" value="Preventiva">Preventiva</td>
+                    <td class="check"><input type="checkbox" name="DXD_TIPO" value="Preditiva">Preditiva</td>
+                    <td class="check"><input type="checkbox" name="DXD_TIPO" value="Revisão">Revisão</td>
+                    <td class="check"><input type="checkbox" name="DXD_TIPO" value="Melhoria">Melhoria</td>
+                    <td class="check"><input type="checkbox" name="DXD_TIPO" value="Outro">Outro</td>
+                </tr>
+            </table>
+            <div class="titulo">CAUSA</div>
+            <table  style="background-color: #FFF;">
+                <tr>
+                    <td class="check"><input type="checkbox" name="DXD_CAUSA" value="Automação">Automação</td>
+                    <td class="check"><input type="checkbox" name="DXD_CAUSA" value="Elétrico">Elétrico</td>
+                    <td class="check"><input type="checkbox" name="DXD_CAUSA" value="Hidráulico">Hidráulico</td>
+                    <td class="check"><input type="checkbox" name="DXD_CAUSA" value="Mecânico">Mecânico</td>
+                    <td class="check"><input type="checkbox" name="DXD_CAUSA" value="Pneumático">Pneumático</td>
+                    <td class="check"><input type="checkbox" name="DXD_CAUSA" value="Outro">Outro</td>
+                </tr>
+            </table>
+            <div class="titulo">SERVIÇO</div>
+            <table  style="background-color: #FFF;">
+                <tr>
+                    <td><input type="text" class="area" name="DXD_SERVICO" required></td>
+                </tr>
+            </table>
+            <div class="titulo">MATERIAL ULTILIZADO</div>
+            <table  style="background-color: #FFF;">
+                <tr>
+                    <th>Quant.</th>
+                    <th>Código</th>
+                    <th>Descrição</th>
+                </tr>
+                <tr>
+                   <td class="tabelinha"><input type="text" name="DXD_QUANTIDADE_1"></td>
+                   <td class="tabelinha"><input type="text" name="DXD_CODIGO_1"></td>
+                   <td class="tabelinha"><input type="text" name="DXD_DESCRICAO_1"></td>
+                </tr>
+                <tr>
+                    <td class="tabelinha"><input type="text" name="DXD_QUANTIDADE_2"></td>
+                    <td class="tabelinha"><input type="text" name="DXD_CODIGO_2"></td>
+                    <td class="tabelinha"><input type="text" name="DXD_DESCRICAO_2"></td>
+                 </tr>
+                 <tr>
+                    <td class="tabelinha"><input type="text" name="DXD_QUANTIDADE_3"></td>
+                    <td class="tabelinha"><input type="text" name="DXD_CODIGO_3"></td>
+                    <td class="tabelinha"><input type="text" name="DXD_DESCRICAO_3"></td>
+                 </tr>
+                 <tr>
+                    <td class="tabelinha"><input type="text" name="DXD_QUANTIDADE_4"></td>
+                    <td class="tabelinha"><input type="text" name="DXD_CODIGO_4"></td>
+                    <td class="tabelinha"><input type="text" name="DXD_DESCRICAO_4"></td>
+                 </tr>
+                 <tr>
+                    <td class="tabelinha"><input type="text" name="DXD_QUANTIDADE_5"></td>
+                    <td class="tabelinha"><input type="text" name="DXD_CODIGO_5"></td>
+                    <td class="tabelinha"><input type="text" name="DXD_DESCRICAO_5"></td>
+                 </tr>
+            </table>
+            <div class="titulo">DESCRIÇÃO DO TRABALHO</div>
+            <table  style="background-color: #FFF;">
+                <tr>
+                    <td><input type="text" class="descricao" name="DXD_DESC_TRABALHO"  required></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="ENVIAR ORDEM"></td>
+                </tr>
+            </table>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
